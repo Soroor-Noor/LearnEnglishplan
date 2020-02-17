@@ -1,0 +1,130 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(imgs/woman-canada.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Coming Soon', cursive;
+}
+
+header {
+    height: 80px;
+    background-color: gray;
+    margin: 0 10%;
+    border-radius: 0 0 50px 50px;
+}
+
+.redbox {
+    width: 10%;
+    height: 100px;
+    background: #ED213A;
+    background: linear-gradient(to right, #93291E, #ED213A);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    border-radius: 0 0 0 50px;
+    font-size: 25px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, 0.836);
+}
+
+.trquazbox {
+    width: 100%;
+    height: 100px;
+    background: #44A08D;
+    background: linear-gradient(to right, #093637, #44A08D);
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    border-radius: 0 0 50px 50px;
+}
+
+.trquazbox h1 {
+    padding: 0;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.425);
+}
+
+.trquazbox p {
+    margin-top: -30px;
+    color: rgba(10, 10, 10, 0.651);
+    font-size: 17px;
+    transition: transform .7s ease;
+}
+
+.trquazbox p:hover {
+    transform: scale(1.2);
+}
+
+.paln {
+    height: 300px;
+    background-color: #fff;
+    margin: 70px 30%;
+    opacity: 50%;
+    border: 1px #222 dotted;
+    border-radius: 50px;
+    border: 0 0 0 1px solid #222;
+}
+
+.planbox {
+    padding: 20px;
+}
+
+.planbox p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.planbox p span {
+    font-weight: bold;
+}
+
+.planbox p i {
+    transition: transform .7s ease;
+}
+.planbox p i:hover{
+    transform: scale(1.4);
+}
+
+.section-two {
+    padding: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-two .re-box {
+    width: 300px;
+    height: 200px;
+    margin: 0 20px;
+    display: inline-block;
+    border: 5px solid #22222200;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 5px solid rgba(0, 0, 0, 0.151);
+}
+
+.section-two .re-box:hover {
+    background: #200122;
+    background: linear-gradient(to right, #ED213A, #ED213A);
+}
+
+.section-two .re-box img {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    transition: transform .7s ease;
+}
+
+.section-two .re-box img:hover {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    transform: scale(1.2);
+}
+
+/* IMGAS */
