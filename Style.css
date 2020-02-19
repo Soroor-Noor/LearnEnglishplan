@@ -61,10 +61,12 @@ header {
     transform: scale(1.2);
 }
 
+/* Planboox */
+
 .paln {
     height: 300px;
     background-color: #fff;
-    margin: 70px 30%;
+    margin: 70px 30% 30px 30%;
     opacity: 50%;
     border: 1px #222 dotted;
     border-radius: 50px;
@@ -87,13 +89,43 @@ header {
 .planbox p i {
     transition: transform .7s ease;
 }
-.planbox p i:hover{
+
+.planbox p i:hover {
     transform: scale(1.4);
 }
 
+/* Titles */
+
+.tit-box {
+    margin: 0;
+    padding: 0;
+}
+
+.tit1 {
+    display: inline-block;
+    opacity: 50%;
+    position: relative;
+    margin: 0 234px 0 -57px
+}
+
+.tit2 {
+    opacity: 50%;
+    display: inline;
+    margin: 0 50px 0 0;
+    margin: 0 232px 0 50px;
+}
+
+.tit3 {
+    opacity: 50%;
+    display: inline;
+    margin: 0 50px 0 0;
+}
+
+/* Home Contact */
+
 .section-two {
     padding: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -120,6 +152,14 @@ header {
     transition: transform .7s ease;
 }
 
+#s101 {
+    opacity: 10%;
+}
+
+#s105 {
+    opacity: 10%;
+}
+
 .section-two .re-box img:hover {
     text-align: center;
     height: 100%;
@@ -127,4 +167,51 @@ header {
     transform: scale(1.2);
 }
 
-/* IMGAS */
+/* Games */
+
+.section-games h1 {
+    opacity: 50%;
+    margin: 0;
+}
+
+.section-games {
+    padding: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-games .re-box {
+    width: 200px;
+    height: 200px;
+    margin: 0 20px;
+    display: inline-block;
+    border: 5px solid #22222200;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, 0.151);
+}
+
+.section-games .re-box:hover {
+    background: #200122;
+    background: linear-gradient(to right, #ED213A, #ED213A);
+}
+
+.section-games .re-box img {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    transition: transform .7s ease;
+}
+
+.section-games .re-box img:hover {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    transform: scale(1.2);
+}
+
+time {
+    display: block;
+    opacity: 80%;
+    margin-left: auto;
+}
